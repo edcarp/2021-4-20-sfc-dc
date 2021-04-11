@@ -354,14 +354,43 @@ of code below the Schedule `<h2>` header below with
 {% endcomment %}
 
 <h2 id="schedule">Schedule</h2>
+<div class="row">
+<div class="col-md-6">
+<h3>Day 1</h3>
+<table class="table table-striped">
+<tr>
+<td>Before starting</td>
+<td><a href="{{ site.pre_survey }}{{ site.github.project_title }}" target="_blank">Pre-workshop survey</a></td>
+</tr>
+<tr><td>Morning</td> <td> <a href="https://librarycarpentry.org/lc-spreadsheets/">Data Organization in Spreadsheets</a></td></tr>
+<tr><td>Afternoon</td><td><a href="https://datacarpentry.org/openrefine-socialsci/">OpenRefine for Data Cleaning</a></td></tr>
+</table>
+</div>
 
-{% if site.carpentry == "swc" %}
-{% include swc/schedule.html %}
-{% elsif site.carpentry == "dc" %}
-{% include dc/schedule.html %}
-{% elsif site.carpentry == "lc" %}
-{% include lc/schedule.html %}
-{% endif %}
+
+<!--div class="row"-->
+<div class="col-md-6">
+<h3>Day 2</h3>
+<table class="table table-striped">
+<tr>
+<tr><td>Morning</td> <td> <a href="https://datacarpentry.org/r-socialsci/">Data Analysis in R</a></td></tr>
+</tr>
+</table>
+</div>
+
+	
+<div class="col-md-6">
+<h3>Day 3</h3>
+<table class="table table-striped">
+<tr> <td>Morning</td>
+<td>
+<a href="https://datacarpentry.org/r-socialsci/">Continuation of Data Analysis in R</a>
+</td>
+</tr>
+<td>Follow-up</td><td><a href="{{ site.post_survey }}{{ site.github.project_title }}" target="_blank">Post-workshop survey</a></td>
+</table>
+</div>
+</div>
 
 <hr/>
 
@@ -407,7 +436,7 @@ For online workshops, the section below provides:
 
 If you do not use Zoom for your online workshop, edit the file
 `_includes/install_instructions/videoconferencing.html`
-to include the relevant installation instrucctions.
+to include the relevant installation instructions.
 {% endcomment %}
 {% if online != "false" %}
 {% include install_instructions/videoconferencing.html %}
