@@ -388,4 +388,4 @@ of code below the Schedule `<h2>` header below with
 SETUP
 
 The directions for installing and setting up the required software can be found 
-<a href = "https://edcarp.github.io/2021-3-29-sfc-dc/setup/setup.html">by following this link</a>.
+<a href = "https://edcarp.github.io/2021-4-20-sfc-dc/setup/setup.html">by following this link</a>.
