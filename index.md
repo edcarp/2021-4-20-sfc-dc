@@ -352,7 +352,7 @@ of code below the Schedule `<h2>` header below with
 <td>Before starting</td>
 <td><a href="{{ site.pre_survey }}{{ site.github.project_title }}" target="_blank">Pre-workshop survey</a></td>
 </tr>
-<tr><td>Morning</td> <td> <a href="https://librarycarpentry.org/lc-spreadsheets/">Data Organization in Spreadsheets</a></td></tr>
+<tr><td>Morning</td> <td> <a href="https://datacarpentry.org/spreadsheets-socialsci/">Data Organization in Spreadsheets</a></td></tr>
 <tr><td>Afternoon</td><td><a href="https://datacarpentry.org/openrefine-socialsci/">OpenRefine for Data Cleaning</a></td></tr>
 </table>
 </div>
