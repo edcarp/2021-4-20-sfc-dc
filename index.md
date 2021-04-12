@@ -385,7 +385,6 @@ of code below the Schedule `<h2>` header below with
 <hr/>
 
 
-{% comment %}
 SETUP
 
 The directions for installing and setting up the required software can be found 
